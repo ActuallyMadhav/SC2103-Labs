@@ -1,0 +1,51 @@
+Time resolution is 1 ps
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+ time | rst we sd sr | d_in  | d_out
+                   0 |  1   0  0  0 | 0x00 | 0xxx
+                5000 |  1   0  0  0 | 0x00 | 0x00
+               10000 |  0   0  0  0 | 0x00 | 0x00
+               20000 |  0   0  0  0 | 0x15 | 0x00
+               30000 |  0   0  1  0 | 0x15 | 0x00
+               35000 |  0   0  1  0 | 0x15 | 0x15
+               40000 |  0   0  0  0 | 0x01 | 0x15
+               50000 |  0   1  0  0 | 0x01 | 0x15
+               60000 |  0   0  0  0 | 0x01 | 0x15
+               70000 |  0   0  0  0 | 0xa3 | 0x15
+               80000 |  0   0  1  0 | 0xa3 | 0x15
+               85000 |  0   0  1  0 | 0xa3 | 0xa3
+               90000 |  0   0  0  0 | 0x02 | 0xa3
+              100000 |  0   1  0  0 | 0x02 | 0xa3
+              110000 |  0   0  0  0 | 0x02 | 0xa3
+              120000 |  0   0  0  0 | 0x87 | 0xa3
+              130000 |  0   0  1  0 | 0x87 | 0xa3
+              135000 |  0   0  1  0 | 0x87 | 0x87
+              140000 |  0   0  0  0 | 0x87 | 0x87
+              150000 |  0   0  0  0 | 0x01 | 0x87
+              160000 |  0   0  0  1 | 0x01 | 0x15
+              170000 |  0   0  0  0 | 0x01 | 0x87
+$finish called at time : 180 ns : File "C:/Users/madhav010/Desktop/Lab2/Lab2_top_tb.v" Line 65
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+ time | rst we sd sr | d_in  | d_out
+                   0 |  1   0  0  0 | 0x00 | 0xxx
+                5000 |  1   0  0  0 | 0x00 | 0x00
+               10000 |  0   0  0  0 | 0x00 | 0x00
+               20000 |  0   0  0  0 | 0x15 | 0x00
+               30000 |  0   0  1  0 | 0x15 | 0x00
+               35000 |  0   0  1  0 | 0x15 | 0x15
+               40000 |  0   0  0  0 | 0x01 | 0x15
+               50000 |  0   1  0  0 | 0x01 | 0x15
+               60000 |  0   0  0  0 | 0x01 | 0x15
+               70000 |  0   0  0  0 | 0xa3 | 0x15
+               80000 |  0   0  1  0 | 0xa3 | 0x15
+               85000 |  0   0  1  0 | 0xa3 | 0xa3
+               90000 |  0   0  0  0 | 0x02 | 0xa3
+              100000 |  0   1  0  0 | 0x02 | 0xa3
+              110000 |  0   0  0  0 | 0x02 | 0xa3
+              120000 |  0   0  0  0 | 0x87 | 0xa3
+              130000 |  0   0  1  0 | 0x87 | 0xa3
+              135000 |  0   0  1  0 | 0x87 | 0x87
+              140000 |  0   0  0  0 | 0x87 | 0x87
+              150000 |  0   0  0  0 | 0x01 | 0x87
+              160000 |  0   0  0  1 | 0x01 | 0x15
+              170000 |  0   0  0  0 | 0x01 | 0x87
+$finish called at time : 180 ns : File "C:/Users/madhav010/Desktop/Lab2/Lab2_top_tb.v" Line 65
